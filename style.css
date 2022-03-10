@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    border: 10px solid palegreen;
+    padding-right: 20px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.pimages {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.man {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin-left: 20px;
+    align-content: center;
+    font-size: 1.3rem;
+}
+
+p {
+    color: grey;
+}
+
+strong {
+    color: black;
+}
+
+hr {
+    width: 100%;
+    color: black;
+    margin-right: 10px;
+}
